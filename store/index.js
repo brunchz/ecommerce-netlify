@@ -69,7 +69,7 @@ export const actions = {
     try {
       // Create a PaymentIntent with the information about the order
       const result = await axios.post(
-        "https://ecommerce-netlify.netlify.app/.netlify/functions/create-payment-intent",
+        "https://inspiring-darwin-006640.netlify.app/.netlify/functions/create-payment-intent",
         {
           items: getters.cartItems
         },
